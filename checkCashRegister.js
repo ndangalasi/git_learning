@@ -64,13 +64,6 @@ function checkCashRegister(price, cash, cid) {
 
 checkCashRegister(19.5, 20, [["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]) 
 
-int pinMode=9;
-void setup()
-{pinMode,OUTPUT}
-void loop()
-{digitalWrite(pinMode,HIGH);
-delay(1000);
-digitalWrite(pinMode,LOW);
-}
+
 
 
